@@ -5,7 +5,7 @@ if ! command -v docker &> /dev/null; then
     echo "Docker is not installed."
     read -p "Press Enter to install Docker..."
     echo "Installing Docker..."
-    curl -fsSL https://get.docker.com -o get-docker.sh
+    curl -6fsSL https://get.docker.com -o get-docker.sh
     sh get-docker.sh
     rm get-docker.sh
     echo "Docker installed successfully."
